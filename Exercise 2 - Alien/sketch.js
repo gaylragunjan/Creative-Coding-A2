@@ -57,7 +57,7 @@ function alien() {
     push();
     fill(103, 93, 66);
     ellipse(x, y, 45, 45);
-    fill(164, 149, 110);
+    fill(206, 193, 155);
     ellipse(x, y, 32, 32);
     pop();
   }
