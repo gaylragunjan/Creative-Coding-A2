@@ -105,7 +105,7 @@ function finn_stats(state) {
   // this function holds all of finns important state information!
   finn_state = state;
   state_timer = 0;
-  distracted_time = random(200,400); // the distracted time picks a random number between 105–120 frames which at 60fps is about 2 seconds,
+  distracted_time = random(90,400); // the distracted time picks a random number between 105–120 frames which at 60fps is about 2 seconds,
   turning_time = random(60,90); // the turning state only runs for 48 frames (less than a second).
   ooohgetPranked = random() < 0.25; // the fake out it has a 2% chance of happening!
 
